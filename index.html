@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Font awesome-->
+    <script src="https://kit.fontawesome.com/6dfbf395d4.js" crossorigin="anonymous"></script>
+    <!-- css-->
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
-    <nav>
+    <!--    <nav>
         <header id="header">
             <h1>ESTILO MUNDO ANIME</h1>
             <img class="carrito" src="img/carrito-compras.png" alt="carrito de compras">
@@ -48,7 +51,142 @@
                 <button>Comprar</button>
             </div>
         </div>
+    </div>-->
+
+
+
+
+
+<!--<header class="header">
+        <a href="#" class="logo">
+            <img src="img/img15.jpg" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#product">Productos</a>
+
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>  
+    </header>-->
+
+
+
+
+    <!-- more-->
+    <header>
+        <h1>MangasShop</h1>
+
+        <div class="container-icon">
+            <!-- icono-->
+            <div class="container-cart-icon">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon-cart"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                    />
+                </svg>
+                <div class="count-products">
+                    <span id="contador-productos">0</span>
+                </div>
+            </div>
+            
+
+            <!-- productos-->
+            <div class="container-cart-products hidden-cart">
+                <div class="row-product">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">Polera Isoka</p>
+                            <span class="precio-producto-carrito">$70</span>
+                        </div>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="icon-close"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                            />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="cart-total">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$80</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img
+                    src="img/img2.png"
+                    alt="Isoka"
+                />
+            </figure>
+            <div class="info-product">
+                <h2>Polera Isoka</h2>
+                <p class="price">$80</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="img/img3.png"
+                    alt="Luffy"
+                />
+            </figure>
+            <div class="info-product">
+                <h2>Polera One piece</h2>
+                <p class="price">$90</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img
+                    src="img/img4.png"
+                    alt="killua"
+                />
+            </figure>
+            <div class="info-product">
+                <h2>Polera Killua</h2>
+                <p class="price">$89</p>
+                <button class="btn-add-cart">Añadir al carrito</button>
+            </div>
+        </div>
     </div>
+
+    
 
     <script src="script.js"></script>
 
